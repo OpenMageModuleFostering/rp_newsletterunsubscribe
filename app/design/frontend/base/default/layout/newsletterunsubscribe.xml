@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--/**
+ * Magento
+ *
+ * Author: Magerips
+ * Website: www.magerips.com 
+ * Suport Email: support@magerips.com
+ *
+**/-->
+<layout version="0.1.0">
+    <newsletterunsubscribe_index_index>
+        <reference name="content">
+            <block type="newsletterunsubscribe/newsletterunsubscribe" name="newsletterunsubscribe" template="newsletterunsubscribe/newsletterunsubscribe.phtml" />
+        </reference>
+    </newsletterunsubscribe_index_index>
+	
+	<default>
+		<reference name="left.newsletter">
+		  <action method="setTemplate" ifconfig="newsunsub/unsub_config/active">
+			 <template>newsletterunsubscribe/subscribe.phtml</template>
+		   </action>
+		</reference>
+		<reference name="footer">
+			<block type="core/text" name="externallink">
+                <action method="setText"><text><![CDATA[<a href="http://www.magerips.com" style="display:none;">magerips.com</a>]]></text></action>
+            </block>
+        </reference>
+	</default>
+
+</layout>

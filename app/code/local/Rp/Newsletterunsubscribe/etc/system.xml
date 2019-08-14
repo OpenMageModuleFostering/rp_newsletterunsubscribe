@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--/**
+ * Magento
+ *
+ * Author: Magerips
+ * Website: www.magerips.com 
+ * Suport Email: support@magerips.com
+ *
+**/-->
+<config>
+	 <tabs>
+        <myconf translate="label">
+            <label>RP Extensions</label>
+            <sort_order>400</sort_order>
+        </myconf>
+    </tabs>
+    <sections>
+        <newsunsub translate="label" module="adminhtml">
+            <label>Unsubscribe from Newsletter</label>
+            <tab>myconf</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+				 <unsub_config translate="label">
+					 <label>Unsubscribe from Newsletter</label>
+					 <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+						<active translate="label comment">
+                            <label>Enable</label>
+                            <frontend_type>select</frontend_type>
+                            <sort_order>51</sort_order>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </active>
+					</fields>	
+				 </unsub_config>
+            </groups>
+         </newsunsub>
+ 	</sections>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Rp_Newsletterunsubscribe</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>User can easily unsubscribe from newsletter.</summary>
+    <description>A quick solution for Magento developer&#x2019;s here that how to unsubscribe from newsletter easily if they chose to do so.&#xD;
+&#xD;
+The extension adds a link to unsubscription form page below the left panel "newsletter subscription" box and the unsubscription form page takes email as input &amp; unsubscribe the user if already registered for subscription. </description>
+    <notes>First release</notes>
+    <authors><author><name>Magerips</name><user>magerips</user><email>rpmagerips@gmail.com</email></author></authors>
+    <date>2015-04-14</date>
+    <time>18:27:18</time>
+    <contents><target name="mageetc"><dir><dir name="modules"><file name="Rp_Newsletterunsubscribe.xml" hash="0b7f02191a3be510aa5ef01ede4b15a9"/></dir></dir></target><target name="magelocal"><dir><dir name="Rp"><dir name="Newsletterunsubscribe"><dir name="Block"><file name="Newsletterunsubscribe.php" hash="511d48bf11a072718c3e718cafc6a426"/><file name="Newsletterunsubscribeoverride.php" hash="ec875f25364e611f1d54524bdf659031"/></dir><dir name="Helper"><file name="Data.php" hash="8474b1baa298c3e60a88beef699d5765"/></dir><dir name="controllers"><file name="IndexController.php" hash="e2de917ff09225c738710e966f00812b"/></dir><dir name="etc"><file name="adminhtml.xml" hash="93fe2044e1cbb2a0f829eb9e236bc0b1"/><file name="config.xml" hash="37a7ce0569dfa1da80a4bc7d0c8f3113"/><file name="system.xml" hash="a2ce9dbb0688fe45fc73ba4e577046e4"/></dir></dir></dir></dir></target><target name="magedesign"><dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="newsletterunsubscribe.xml" hash="682f13d486dcb892c1332ae14b1eb61f"/></dir><dir name="template"><dir name="newsletterunsubscribe"><file name="newsletterunsubscribe.phtml" hash="dbc6ec8e93b5783e606ed3ee78dc3afb"/><file name="subscribe.phtml" hash="d703067a9ad7de12ad8de573143a7148"/></dir></dir></dir></dir><dir name="rwd"><dir name="default"><dir name="layout"><file name="newsletterunsubscribe.xml" hash="5bde79afdb08a7aeedc6e154346a7612"/></dir><dir name="template"><dir name="newsletterunsubscribe"><file name="newsletterunsubscribe.phtml" hash="d8c2531ef933426df27423644845170c"/><file name="subscribe.phtml" hash="fc488a928daf5fda7c2f15c015c4b438"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.1</min><max>6.0.0</max></php></required></dependencies>
+</package>

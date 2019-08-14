@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--/**
+ * Magento
+ *
+ * Author: Magerips
+ * Website: www.magerips.com 
+ * Suport Email: support@magerips.com
+ *
+**/-->
+<config>
+    <modules>
+        <Rp_Newsletterunsubscribe>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Rp_Newsletterunsubscribe>
+    </modules>
+</config> 

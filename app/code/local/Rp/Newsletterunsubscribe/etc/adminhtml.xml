@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--/**
+ * Magento
+ *
+ * Author: Magerips
+ * Website: www.magerips.com 
+ * Suport Email: support@magerips.com
+ *
+**/-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <newsunsub>
+                                        <title>Tab #1</title> 
+                                    </newsunsub>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

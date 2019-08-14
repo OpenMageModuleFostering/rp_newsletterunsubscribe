@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--/**
+ * Magento
+ *
+ * Author: Magerips
+ * Website: www.magerips.com 
+ * Suport Email: support@magerips.com
+ *
+**/-->
+<config>
+    <modules>
+        <Rp_Newsletterunsubscribe>
+            <version>0.1.0</version>
+        </Rp_Newsletterunsubscribe>
+    </modules>
+    <frontend>
+        <routers>
+            <newsletterunsubscribe>
+                <use>standard</use>
+                <args>
+                    <module>Rp_Newsletterunsubscribe</module>
+                    <frontName>newsletterunsubscribe</frontName>
+                </args>
+            </newsletterunsubscribe>
+        </routers>
+        <layout>  
+            <updates>
+                <newsletterunsubscribe>
+                    <file>newsletterunsubscribe.xml</file> 
+                </newsletterunsubscribe>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <newsletterunsubscribe>
+                <class>Rp_Newsletterunsubscribe_Block</class>
+            </newsletterunsubscribe>
+        </blocks>
+        <helpers>
+            <newsletterunsubscribe>
+                <class>Rp_Newsletterunsubscribe_Helper</class>
+            </newsletterunsubscribe>
+        </helpers>
+    </global>
+	<default>
+		 <newsunsub>
+			<unsub_config>
+				<active>0</active>
+			</unsub_config>
+		</newsunsub>	
+	 </default>
+</config>
