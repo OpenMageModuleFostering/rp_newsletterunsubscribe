@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Rp_Newsletterunsubscribe",
+    "name": "openmage-module-fostering\/rp_newsletterunsubscribe",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "User can easily unsubscribe from newsletter.",
     "authors": [
