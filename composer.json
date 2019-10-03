@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Rp_Newsletterunsubscribe",
+    "name": "OpenMageModuleFostering\/Rp_Newsletterunsubscribe",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "User can easily unsubscribe from newsletter.",
     "authors": [
-    {
-        "name": "Magerips",
-        "email": "rpmagerips@gmail.com"
-    }
-],
+        {
+            "name": "Magerips",
+            "email": "rpmagerips@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
